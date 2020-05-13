@@ -4,15 +4,17 @@ I) To fetch random top interview problems off Leetcode with boilerplate code
 II) To fetch random top interview problems off GeeksForGeeks 
 III) To insert a c++ template for competitve programming environment
 
-## Usage
-- I) Ctrl + Alt + L or run command Leetcode
-- II) Ctrl + Alt + G  run command Geek for Geeks
-- III) Ctrl + Alt + C or run command cpp template
-
 ## Requirements
 - Python 3
 - Libraries in python needed : Selenium , BeautifulSoup
 - GeckoDriver
+
+## Usage
+Simply download and place the files in Packages folder of Sublime Text.
+- I) Ctrl + Alt + L or run command Leetcode
+- II) Ctrl + Alt + G  run command Geek for Geeks
+- III) Ctrl + Alt + C or run command cpp template
+
 
 
 ## Changes Needed 
