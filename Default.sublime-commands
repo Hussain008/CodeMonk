@@ -1,0 +1,14 @@
+[
+  {
+    "caption": "geek for geeks",
+    "command": "geeks"
+  },
+  {
+    "caption": "Leetcode",
+    "command": "leet"
+  },
+  {
+    "caption": "cpp template",
+    "command": "codemode"
+  }
+]
