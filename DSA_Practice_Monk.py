@@ -67,11 +67,20 @@ class GeeksCommand(sublime_plugin.TextCommand):
 		res+= title + question.get_text() +'\n\n'+random_link + '\n\n */\n\n'
 
 		#to remove random carraige returns that we were getting 
-		res=res.replace('\r','')
+		res=res.replace('\r','').split(' ')
+		res1=''
+		count=0
+		for r in res  :
+			if(count==20):
+				res1+='\n'+r+' '
+				count=0
+			else:
+				res1+=r+' '
+				count+=1
             
 		response.close()
 
-		self.view.insert(edit, 0, res)
+		self.view.insert(edit, 0, res1)
 
 
 
@@ -126,8 +135,19 @@ class LeetCommand(sublime_plugin.TextCommand):
 
 		res+='\n\n\n\n\n' + code + '\n\n'
 
-		browser.close()
-		self.view.insert(edit, 0, res)
+		res=res.replace('\r','').split(' ')
+		res1=''
+		count=0
+		for r in res  :
+			if(count==20):
+				res1+='\n'+r+' '
+				count=0
+			else:
+				res1+=r+' '
+				count+=1
+
+		browser.quit()
+		self.view.insert(edit, 0, res1)
 
 
 	def createHeadlessFirefoxBrowser(self):
