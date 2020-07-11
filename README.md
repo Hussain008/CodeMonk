@@ -15,9 +15,9 @@ Simply download and place the files in Packages folder of Sublime Text.
 - II) Ctrl + Alt + G  run command Geek for Geeks
 - III) Ctrl + Alt + C or run command cpp template
 
- ![GFG_demo](img/gfg)
+ ![GFG_demo](img/gfg.gif)
  
- ![Leetcode_demo](img/leetcode_final)
+ ![Leetcode_demo](img/leetcode_final.gif)
 
 
 
