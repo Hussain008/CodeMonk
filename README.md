@@ -1,8 +1,8 @@
 # CodeMonk
 Sublime Text Plugin for solving problems for Leetcode and GFG . This Sublime Text Plugin has 3 functionalities : 
-I) To fetch random top interview problems off Leetcode with boilerplate code
-II) To fetch random top interview problems off GeeksForGeeks 
-III) To insert a c++ template for competitve programming environment
+- I) To fetch random top interview problems off Leetcode with boilerplate code
+- II) To fetch random top interview problems off GeeksForGeeks 
+- III) To insert a c++ template for competitve programming environment
 
 ## Requirements
 - Python 3
